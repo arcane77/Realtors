@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon api/index.js",
     "start": "node index.js",
-    "build":"npm install && nom install --prefix client && npm run build --prefix",
+    "build":"npm install && npm install --prefix client && npm run build --prefix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
