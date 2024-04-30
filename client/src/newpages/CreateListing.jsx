@@ -155,7 +155,7 @@ export default function CreateListing() {
     }
   };
   return (
-    <main className='p-3 max-w-4xl mx-auto'>
+    <main className='p-3 mt-12 max-w-4xl mx-auto'>
       <h1 className='text-3xl font-semibold text-center my-7'>
         Create a Listing
       </h1>
@@ -318,19 +318,26 @@ export default function CreateListing() {
             </span>
           </p>
           <div className='flex gap-4'>
-            <input
-              onChange={(e) => setFiles(e.target.files)}
-              className='p-3 border border-gray-300 rounded w-full'
-              type='file'
-              id='images'
-              accept='image/*'
-              multiple
-            />
+            <div className='border w-80 p-4 flex'>
+          <label htmlFor='images' className='file-label'>
+        Choose Files
+        <input
+            onChange={(e) => setFiles(e.target.files)}
+            className='file-input'
+            type='file'
+            id='images'
+            accept='image/*'
+            multiple
+        /> 
+        </label>
+        <p className='pl-2 text-gray-400' >Select images to upload</p>
+        </div>
+
             <button
               type='button'
               disabled={uploading}
               onClick={handleImageSubmit}
-              className='p-3 text-green-700 border border-green-700 rounded uppercase hover:shadow-lg disabled:opacity-80'
+              className='p-3 text-black border border-black rounded uppercase hover:bg-black hover:text-white disabled:opacity-80'
             >
               {uploading ? 'Uploading...' : 'Upload'}
             </button>
@@ -360,7 +367,7 @@ export default function CreateListing() {
             ))}
           <button
             disabled={loading || uploading}
-            className='p-3 bg-slate-700 text-white rounded-lg uppercase hover:opacity-95 disabled:opacity-80'
+            className='p-3 bg-[#292727] text-white rounded-lg uppercase hover:bg-black disabled:opacity-80'
           >
             {loading ? 'Creating...' : 'Create listing'}
           </button>
