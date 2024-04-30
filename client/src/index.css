@@ -3,5 +3,91 @@
 @tailwind utilities;
 
 body{
-    background-color: #121212;
+    background-color: #FEFBF7;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@keyframes slide-right {
+    from {
+      transform: translateX(-10%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-top{
+    from {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-bottom{
+    from {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  .animation-slide-right {
+    animation: slide-right 1.5s ease-out forwards;
+  }
+
+  .animation-slide-top {
+    animation: slide-top 1.4s ease-out forwards;
+  }
+
+  .animation-slide-bottom {
+    animation: slide-bottom 1.4s ease-out forwards;
+  }
+  
+
+  .custom-shadow {
+    box-shadow: 0 2px 4px rgba(68, 67, 67, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1); }
+
+    .btn-shadow {
+        box-shadow: 0 2px 4px rgba(23, 15, 72, 0.1), 0 4px 8px rgba(3, 8, 59, 0.6); }
+        
+.box-shadow {
+  box-shadow:  11px 11px 22px #d5d3cf,
+             -11px -11px 22px #ffffff;
+}
+
+.text-xxs {
+  font-size: 0.65rem; 
+}
+
+.file-input {
+  display: none; 
+}
+
+.file-label {
+  padding: 5px 7px;
+  background-color: #0c0c0c;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  width: 35%;
+  box-sizing: border-box; 
+  text-align: left; 
+}
+
+
