@@ -42,7 +42,7 @@ export default function Header() {
           </h1>
         </Link>
 
-        <ul className='flex-grow flex justify-center sm:mt-3.5 md:text-sm lg:text-base sm:text-sm items-center mt-4 text-xxs xl:text-base ml-16 lg:ml-14 space-x-4 sm:space-x-8 lg:space-x-12'>
+        <ul className='flex-grow flex justify-center sm:mt-3.5 md:text-sm lg:text-base sm:text-sm items-center mt-4 text-xxs xl:text-base ml-12 lg:ml-14 space-x-4 sm:space-x-8 lg:space-x-12'>
           {[
       { path: '/', label: 'Home' },
       { path: '/#listings-section', label: 'Listings' },
@@ -59,7 +59,7 @@ export default function Header() {
         <div className='flex items-center justify-end mt-4 sm:mt-3.5 min-w-[150px]'>
           {currentUser ? (
             <Link to='/profile'>
-              <img className='rounded-full h-7 w-7 object-cover' src={currentUser.avatar} alt='profile' />
+              <img className='rounded-full h-7 w-7 mr-20 object-cover' src={currentUser.avatar} alt='profile' />
             </Link>
           ) : (
             <div className='flex text-xxs ml-3.5 items-center space-x-2 md:space-x-4 lg:space-x-7 sm:text-sm md:text-sm lg:text-base'>
