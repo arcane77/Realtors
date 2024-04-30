@@ -61,13 +61,14 @@ export default function Signup() {
 
 
   return (
-    <div className='p-3 max-w-lg mx-auto'>
-      <h1 className='text-3xl text-center font-semibold my-7 text-white'>Sign Up</h1>
+    <div className='p-3 mt-14 max-w-lg mx-auto'>
+      <h1 className='text-3xl text-center font-semibold my-7 text-black'>Sign Up</h1>
+      <div className='rounded-xl border border-slate-300 p-7' >
       <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
         <input
           type='text'
           placeholder='username'
-          className='p-3 rounded-lg bg-[#282828] text-white'
+          className='p-3 rounded-md border border-slate-300 bg-white text-black'
           id='username'
           onChange={handlechange}
          
@@ -75,7 +76,7 @@ export default function Signup() {
         <input
           type='email'
           placeholder='email'
-          className='p-3 rounded-lg bg-[#282828] text-white'
+          className='p-3 rounded-md border border-slate-300 bg-white text-black'
           id='email'
           onChange={handlechange}
           
@@ -83,7 +84,7 @@ export default function Signup() {
         <input
           type='password'
           placeholder='password'
-          className='p-3 rounded-lg bg-[#282828] text-white'
+          className='p-3 rounded-md border border-slate-300 bg-white text-black'
           id='password'
           onChange={handlechange}
           
@@ -91,12 +92,13 @@ export default function Signup() {
 
         <button
           disabled={loading}
-          className='bg-[#382bf0] text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80'>{loading ? 'Loading..':' Sign UP'}
+          className='bg-[#4977db] text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80'>{loading ? 'Loading..':' Sign UP'}
         </button>
         <Oauth/>
       </form>
+      </div>
       <div className='flex gap-2 mt-5'>
-        <p className='text-white'>Have an account?</p>
+        <p className='text-black'>Have an account?</p>
         <Link to ={'/sign-in'}>
         
           <span className='text-blue-700'>Sign in</span>

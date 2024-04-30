@@ -101,11 +101,6 @@ const handleSignout=async()=>{
 
 
 
-
-
-
-
-
   const handleListingDelete = async (listingId) => {
     try {
       const res = await fetch(`/api/listing/delete/${listingId}`, {
@@ -128,23 +123,21 @@ const handleSignout=async()=>{
 
 
   return (
-    <div className='p-3 max-w-lg mx-auto'>
-      <h1 className='text-3xl font-semibold text-center my-7 text-white'>Profile</h1>
-      <form className='flex flex-col gap-4'>
-        
-        <img
+    <div className='p-3 mt-28 max-w-lg mx-10 sm:mx-auto'>
+      <img
           
           src={currentUser.avatar}
           alt='profile'
-          className='rounded-full h-24 w-24 object-cover cursor-pointer self-center mt-2'
+          className='rounded-full h-14 w-14 object-cover cursor-pointer my-6 mx-auto custom-shadow'
         />
-        
+      <div className='rounded-xl border border-slate-300 p-7' >
+      <form className='flex flex-col gap-4'>
         <input
           type='text'
           placeholder='username'
           defaultValue={currentUser.username}
           id='username'
-          className='p-3 rounded-md bg-[#3f3f3f] text-white'
+          className='p-3 rounded-md border border-slate-300 bg-white text-black'
 
         />
         <input
@@ -152,7 +145,7 @@ const handleSignout=async()=>{
           placeholder='email'
           id='email'
           defaultValue={currentUser.email}
-          className='p-3 rounded-md bg-[#3f3f3f] text-white'
+          className='p-3 rounded-md border border-slate-300 bg-white text-black'
         
         />
         <input
@@ -160,16 +153,17 @@ const handleSignout=async()=>{
           placeholder='password'
          
           id='password'
-          className=' p-3 rounded-md bg-[#3f3f3f] text-white'
+          className='p-3 rounded-md border border-slate-300 bg-white text-black'
         />
        
         <Link to={"/create-listing"}
-          className='bg-[#382bf0] text-white p-3 rounded-lg uppercase text-center hover:opacity-95'
+          className='bg-[#292727] text-white p-3 rounded-lg uppercase text-center hover:opacity-95'
           
         >
           Create Listing
         </Link>
       </form>
+      </div>
       <div className='flex justify-between mt-5'>
         <span onClick={handleDeleteUser}
          
@@ -181,9 +175,11 @@ const handleSignout=async()=>{
           Sign out
         </span>
       </div>
-      <button  onClick={handleShowListings}className='text-green-700 w-full'>
+      <div className='flex items-center justify-center h-screen"'>
+      <button  onClick={handleShowListings}className='text-black mt-4 p-1 bg-transparent border border-black hover:bg-black hover:text-white rounded-lg w-1/3'>
         Show Listings
       </button>
+      </div>
       <p className='text-red-700 mt-5'>
         {showListingsError ? 'Error showing listings' : ''}
       </p>
@@ -220,7 +216,7 @@ const handleSignout=async()=>{
                   Delete
                 </button>
                 <Link to={`/update-listing/${listing._id}`}>
-                  <button className='text-green-700 uppercase'>Edit</button>
+                  <button className='text-black uppercase'>Edit</button>
                 </Link>
               </div>
             </div>

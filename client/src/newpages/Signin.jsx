@@ -57,14 +57,15 @@ export default function Signin() {
 
 
   return (
-    <div className='p-3 max-w-lg mx-auto'>
-      <h1 className='text-3xl text-center font-semibold my-7 text-white'>Sign In</h1>
+    <div className='p-3 mt-14 max-w-lg mx-auto'>
+      <h1 className='text-3xl text-center font-semibold my-7 text-black'>Sign In</h1>
+      <div className='rounded-xl border border-slate-300 p-7' >
       <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
        
         <input
           type='email'
           placeholder='email'
-          className='p-3 rounded-lg bg-[#282828] text-white'
+          className='p-3 rounded-md border border-slate-300 bg-white text-black'
           id='email'
           onChange={handlechange}
           
@@ -72,7 +73,7 @@ export default function Signin() {
         <input
           type='password'
           placeholder='password'
-          className='p-3 rounded-lg bg-[#282828] text-white'
+          className='p-3 rounded-md border border-slate-300 bg-white text-black'
           id='password'
           onChange={handlechange}
           
@@ -80,13 +81,14 @@ export default function Signin() {
 
         <button
           disabled={loading}
-          className='bg-[#382bf0] text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80'>{loading ? 'Loading..':' Sign In'}
+          className='bg-[#4977db] text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80'>{loading ? 'Loading..':' Sign In'}
 
         </button>
         <Oauth/>
       </form>
+      </div>
       <div className='flex gap-2 mt-5'>
-        <p className='text-white'>Dont have an account?</p>
+        <p className='text-black'>Dont have an account?</p>
         <Link to ={'/signup'}>
         
           <span className='text-blue-700'>Sign Up</span>
