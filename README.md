@@ -54,6 +54,12 @@ Once both servers are running, open http://localhost:3000 in a browser to access
 ---
 <img width="1470" alt="Screenshot 2024-06-27 at 4 46 17 PM" src="https://github.com/arcane77/Realtors/assets/96630482/35c5d9a6-9797-4b6d-9d66-e1502c648ea9">
 
+#### User Sign in and Sign up
+---
+<img width="1470" alt="Screenshot 2024-06-27 at 5 09 04 PM" src="https://github.com/Nikhil-Gowda-T-P/Realtors/assets/96630482/3c320d4b-a2fc-4595-9b67-d68086eb97ac">
+<img width="1470" alt="Screenshot 2024-06-27 at 5 09 10 PM" src="https://github.com/Nikhil-Gowda-T-P/Realtors/assets/96630482/5bc2724a-f764-44ad-8a96-4f7589c283d0">
+<img width="1470" alt="Screenshot 2024-06-27 at 5 06 15 PM" src="https://github.com/Nikhil-Gowda-T-P/Realtors/assets/96630482/e2a4f3bb-04ad-4f33-ba3b-001af7f64c76">
+
 #### Listings
 ---
 <img width="1470" alt="Screenshot 2024-06-27 at 4 46 26 PM" src="https://github.com/arcane77/Realtors/assets/96630482/5bf8bf9a-8e5a-422b-a04c-3677cc9b5cd3">
@@ -72,7 +78,7 @@ Once both servers are running, open http://localhost:3000 in a browser to access
 
 #### User Profile along with Listings created
 ---
-<img width="1470" alt="Screenshot 2024-06-27 at 4 48 30 PM" src="https://github.com/arcane77/Realtors/assets/96630482/bf32aab8-4c40-48d8-b10d-177182f666c9">
+<img width="1470" alt="Screenshot 2024-06-27 at 5 08 12 PM" src="https://github.com/Nikhil-Gowda-T-P/Realtors/assets/96630482/f47e8b64-3bbc-4f26-a941-2af349bedf3c">
 
 
 ### Contributing
