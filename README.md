@@ -1,4 +1,4 @@
-# Realtors
+<img width="1470" alt="Screenshot 2024-06-27 at 4 46 17 PM" src="https://github.com/arcane77/Realtors/assets/96630482/eeb09bad-407e-4eb7-b710-35bf3117c0e8"># Realtors
 
 Real estate portal designed to connect buyers and sellers through a user-friendly interface. This MERN stack project leverages MongoDB, Express, React, and Node.js, with additional features from Firebase for authentication and data handling.
 
@@ -49,7 +49,31 @@ Start the frontend application:
 ### Usage
 Once both servers are running, open http://localhost:3000 in a browser to access the Realtors portal.
 
-### snapshots
+### Snapshots
+#### Landing UI
+---
+<img width="1470" alt="Screenshot 2024-06-27 at 4 46 17 PM" src="https://github.com/arcane77/Realtors/assets/96630482/35c5d9a6-9797-4b6d-9d66-e1502c648ea9">
+
+#### Listings
+---
+<img width="1470" alt="Screenshot 2024-06-27 at 4 46 26 PM" src="https://github.com/arcane77/Realtors/assets/96630482/5bf8bf9a-8e5a-422b-a04c-3677cc9b5cd3">
+
+#### Property Details
+---
+<img width="1470" alt="Screenshot 2024-06-27 at 4 47 25 PM" src="https://github.com/arcane77/Realtors/assets/96630482/ab01b2f0-9e1e-42c4-98cd-322833756c6c">
+
+#### Property by search
+---
+<img width="1470" alt="Screenshot 2024-06-27 at 4 48 51 PM" src="https://github.com/arcane77/Realtors/assets/96630482/1f20057f-9cee-4afb-8dad-f822401f543a">
+
+#### Create Listings
+---
+<img width="1470" alt="Screenshot 2024-06-27 at 4 53 36 PM" src="https://github.com/arcane77/Realtors/assets/96630482/1b227383-99da-4113-b21a-4ac07f56d897">
+
+#### User Profile along with Listings created
+---
+<img width="1470" alt="Screenshot 2024-06-27 at 4 48 30 PM" src="https://github.com/arcane77/Realtors/assets/96630482/bf32aab8-4c40-48d8-b10d-177182f666c9">
+---
 
 
 ### Contributing
