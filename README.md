@@ -73,7 +73,6 @@ Once both servers are running, open http://localhost:3000 in a browser to access
 #### User Profile along with Listings created
 ---
 <img width="1470" alt="Screenshot 2024-06-27 at 4 48 30 PM" src="https://github.com/arcane77/Realtors/assets/96630482/bf32aab8-4c40-48d8-b10d-177182f666c9">
----
 
 
 ### Contributing
