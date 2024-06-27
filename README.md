@@ -1,4 +1,4 @@
-<img width="1470" alt="Screenshot 2024-06-27 at 4 46 17 PM" src="https://github.com/arcane77/Realtors/assets/96630482/eeb09bad-407e-4eb7-b710-35bf3117c0e8"># Realtors
+# Realtors
 
 Real estate portal designed to connect buyers and sellers through a user-friendly interface. This MERN stack project leverages MongoDB, Express, React, and Node.js, with additional features from Firebase for authentication and data handling.
 
